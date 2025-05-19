@@ -1,67 +1,73 @@
-/* General Styles */
+/* Base Reset and Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  padding-top: 80px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff0f5; /* light pink background */
-  color: #4d004d; /* deep purple text */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5; /* Light grey background */
+  color: #333; /* Dark grey text */
+  line-height: 1.6;
+  padding: 2rem;
 }
 
-/* Navbar */
-.navbar {
-  background-color: #ff69b4 !important; /* hot pink */
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff; /* White card */
+  padding: 2rem;
+  border: 1px solid #ddd; /* Soft border */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-.navbar-brand,
-.nav-link,
-.navbar-nav .nav-link.active {
-  color: white !important;
+/* Headings */
+h1, h2, h3 {
+  color: #222;
+  margin-bottom: 1rem;
 }
 
-.nav-link:hover {
-  color: #ffe6f0 !important;
+/* Links */
+a {
+  color: #555;
+  text-decoration: none;
 }
 
-.navbar-toggler {
-  border-color: white;
-}
-
-/* Section Styling */
-.section {
-  padding: 40px 0;
-}
-
-.bg-light {
-  background-color: #ffe6f0 !important; /* soft light pink */
-}
-
-/* Profile */
-.profile-pic {
-  width: 150px;
-  border-radius: 50%;
-  border: 3px solid #ff69b4;
-  box-shadow: 0 0 10px #ff99cc;
+a:hover {
+  color: #000;
+  text-decoration: underline;
 }
 
 /* Buttons */
-.btn-primary {
-  background-color: #ff69b4;
+button {
+  background-color: #ccc;
+  color: #222;
+  padding: 0.5rem 1rem;
   border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.btn-primary:hover {
-  background-color: #ff1493;
+button:hover {
+  background-color: #999;
 }
 
-/* Footer */
-footer {
-  background-color: #ffccdf;
-  padding: 20px 0;
-  text-align: center;
-  color: #4d004d;
+/* Forms */
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0 1rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #222;
 }
 
-/* Rating result */
-#ratingResult {
-  color: #d63384;
-  font-size: 1.2em;
+input:focus, textarea:focus {
+  border-color: #888;
+  outline: none;
 }
