@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+  padding-top: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5; /* light pink background */
+  color: #4d004d; /* deep purple text */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ff69b4 !important; /* hot pink */
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-nav .nav-link.active {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #ffe6f0 !important;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+/* Section Styling */
+.section {
+  padding: 40px 0;
+}
+
+.bg-light {
+  background-color: #ffe6f0 !important; /* soft light pink */
+}
+
+/* Profile */
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #ff69b4;
+  box-shadow: 0 0 10px #ff99cc;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #ff69b4;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #ff1493;
+}
+
+/* Footer */
+footer {
+  background-color: #ffccdf;
+  padding: 20px 0;
+  text-align: center;
+  color: #4d004d;
+}
+
+/* Rating result */
+#ratingResult {
+  color: #d63384;
+  font-size: 1.2em;
+}
