@@ -115,3 +115,17 @@ body {
   font-size: 0.9rem;
   color: #555;
 }
+
+/* Projects Pages */
+.project1{
+    background-color: #;
+    margin: 30px;
+    border-radius: 30px;
+    text-align: center;
+    border: dotted 3px;
+  }
+.project1 img{
+    height: 300px;
+    margin: 15px;
+    border-radius: 13px;
+  }
