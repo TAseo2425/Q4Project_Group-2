@@ -124,6 +124,7 @@ body {
       border-radius: 30px;
       text-align: center;
       border: dotted 3px;
+      padding: 5px;
  }
   .project1 img {
       height: 300px;
