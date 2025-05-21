@@ -5,11 +5,16 @@
   box-sizing: border-box;
 }
 
-body {
+.sour-gummy-<uniquifier> {
   font-family: "Sour Gummy", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
