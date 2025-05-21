@@ -165,3 +165,30 @@ body {
 .rating label:hover ~ label {
       color: #999;
   }
+
+.main-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 150px); /* Adjust for navbar height */
+  }
+
+.container {
+      width: 400px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+
+h1 {
+      text-align: center;
+      color: #444;
+  }
+
+.feedback-form label {
+      display: block;
+      margin: 15px 0 5px;
+      font-size: 14px;
+      color: #666;
+  }
