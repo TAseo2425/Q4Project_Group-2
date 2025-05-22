@@ -223,3 +223,10 @@ button[type="submit"]:hover {
 h2{
   text-alight: center;
 }
+
+footer{
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  height: 30px;
+}
